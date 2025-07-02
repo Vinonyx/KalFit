@@ -39,15 +39,17 @@ KalFit is a health-focused mobile application built using **Kotlin** that helps 
 | **Predicted Calories** | 170 kcal |
 
 ## 📂 Project Structure
+```
 KalFit/
-├── app/ # Kotlin-based Android mobile application (UI & logic)
-├── Backend/ # Python ML model & API logic (calorie prediction)
-│ └── Project_ML_LR.ipynb # Jupyter Notebook for training & evaluation
-├── .gitignore # Git ignore rules
-├── build.gradle.kts # Gradle Kotlin DSL build file
-├── settings.gradle.kts # Gradle project settings
-├── gradle/ # Gradle wrapper and settings
-├── gradlew / gradlew.bat # Gradle wrappers
+├── app/ // Kotlin-based Android mobile application (UI & logic)
+├── Backend/ // Python ML model & API logic (calorie prediction)
+├── Project_ML_LR.ipynb // Jupyter Notebook for training & evaluation
+├── .gitignore // Git ignore rules
+├── build.gradle.kts // Gradle Kotlin DSL build file
+├── settings.gradle.kts // Gradle project settings
+├── gradle/ // Gradle wrapper and settings
+├── gradlew / gradlew.bat // Gradle wrappers
+```
 
 ## 📦 How to Run
 ### 🔹 ML Model (Python)
