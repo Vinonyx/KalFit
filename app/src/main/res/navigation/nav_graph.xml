@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.projectbeta.ui.view.Dashboard.DashboardFragment"
+        android:label="DashboardFragment">
+        <action
+            android:id="@+id/action_dashboardFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/prediction"
+        android:name="com.example.projectbeta.ui.view.Prediction.PredictionFragment"
+        android:label="PredictionFragment" />
+
+    <fragment
+        android:id="@+id/foodRecom"
+        android:name="com.example.projectbeta.ui.view.FoodRecommendation.FoodRecommendationFragment"
+        android:label="FoodRecommendationFragment" />
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.projectbeta.ui.view.More.AboutFragment"
+        android:label="AboutFragment" />
+
+    <fragment
+        android:id="@+id/more"
+        android:name="com.example.projectbeta.ui.view.More.MoreFragment"
+        android:label="MoreFragment" />
+    <action
+        android:id="@+id/action_moreFragment_to_aboutFragment"
+        app:destination="@id/about" />
+
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.projectbeta.ui.view.Dashboard.WebViewFragment"
+        android:label="WebViewFragment">
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

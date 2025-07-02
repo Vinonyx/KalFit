@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/dashboard"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/prediction"
+        android:icon="@drawable/prediksi"
+        android:title="Prediction" />
+
+    <item
+        android:id="@+id/foodRecom"
+        android:icon="@drawable/rekomendasi"
+        android:title="Recommendation" />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/menu"
+        android:title="Menu" />
+</menu>

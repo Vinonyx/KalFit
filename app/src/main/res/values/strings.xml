@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProjectBeta</string>
+
+    <string-array name="goal_labels">
+        <item>Muscle Gain</item>
+        <item>Weight Loss</item>
+        <item>Maintain Weight</item>
+    </string-array>
+
+    <string-array name="goal_values">
+        <item>muscle_gain</item>
+        <item>weight_loss</item>
+        <item>maintain_weight</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
