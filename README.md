@@ -53,9 +53,8 @@ KalFit/
 
 ## 📦 How to Run
 ### 🔹 ML Model (Python)
-1. Navigate to `/Backend/`
-2. Open and run `Project_ML_LR.ipynb` to train and test the model
-3. Export model as `.pkl` or integrate directly
+1. Open and run `Project_ML_LR.ipynb` to train and test the model
+2. Export model as `.pkl` or integrate directly
 
 ### 🔹 Android App
 1. Open project in **Android Studio**
